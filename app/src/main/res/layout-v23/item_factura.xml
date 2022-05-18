@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <data>
+
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:bottom="1dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:id="@+id/factura"
+        android:foreground="?attr/selectableItemBackground"
+       >
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/fecha_factura"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/estadoFactura"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/estadoFactura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="353dp"
+            android:text="@string/estado_factura"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fecha" />
+
+        <TextView
+            android:id="@+id/importeFactura"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center|end"
+            android:text="@string/importe_factura"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/estadoFactura"
+            app:layout_constraintEnd_toStartOf="@+id/botonPopUp"
+            app:layout_constraintStart_toEndOf="@+id/fecha"
+            app:layout_constraintTop_toTopOf="@+id/fecha"
+            app:drawableBottomCompat="@drawable/bottom_factura" />
+
+        <ImageView
+            android:id="@+id/botonPopUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:paddingEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/importeFactura"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/importeFactura"
+            app:layout_constraintTop_toTopOf="@+id/importeFactura"
+            app:layout_constraintVertical_bias="0.485"
+            android:contentDescription="@string/botonPopUp"
+            app:srcCompat="@drawable/ic_baseline_arrow_forward_ios_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/estadoFactura"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

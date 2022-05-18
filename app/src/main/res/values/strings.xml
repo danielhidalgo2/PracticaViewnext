@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Practica1DanielHidalgo</string>
+    <string name="tituloToolbar">Consumo</string>
+
+    <!--Main Activity-->
+    <string name = "cabeceraListadoFactura">Facturas</string>
+
+    <!--Mensaje facturas filtradas vacía en MainActivity-->
+    <string name="mensajeFacturasVacias">No hay ningúna factura.</string>
+
+    <!--Filtro-->
+    <string name="cabeceraFiltros">Filtrar facturas</string>
+    <string name="filtros_titulo_fecha">Con fecha de emisión</string>
+    <string name="desde">Desde:</string>
+    <string name="hasta">Hasta:</string>
+    <string name="filtros_titulo_importe">Por un importe</string>
+    <string name="botonFiltrar">Filtrar</string>
+    <string name="botonCerrarFiltros">Limpiar filtros</string>
+    <string name="botonCerrar">Botón Cerrar Filtros</string>
+    <string name="botonPopUp">Botón Pop Up</string>
+    <string name="max">Max</string>
+    <string name="dia_mes_año">día/mes/año</string>
+    <string name="min_seekbar">0 €</string>
+
+    <!--CheckBox Strings-->
+    <string name="filtros_titulo_estados">Filtrar por estados</string>
+    <string name="opcion1">Pagadas</string>
+    <string name="opcion2">Anuladas</string>
+    <string name="opcion3">Cuota Fija</string>
+    <string name="opcion4">Pendientes de pago</string>
+    <string name="opcion5">Plan de pago</string>
+
+    <!--Factura Item View-->
+    <string name="fecha_factura">Fecha Factura</string>
+    <string name="importe_factura">0.00€</string>
+    <string name="estado_factura">Estado Factura</string>
+    <string name="boton_factura">Utilidad sin implementar</string>
+
+    <!--Dialog Factura-->
+    <string name="titutloDialogFactura">Titulo</string>
+    <string name="cuerpoDialogFactura">Está función aún no está disponible</string>
+    <string name="neutralButtonDialogFactura">Cerrar</string>
+
+</resources>

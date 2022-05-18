@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/drawable/bottom_factura.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/layout-v23/item_factura.xml" value="0.1" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/layout/activity_filtros.xml" value="0.1" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/layout/fff.xml" value="0.1796875" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/layout/item_factura.xml" value="0.1" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/menu/item_factura.xml" value="0.1796875" />
+        <entry key="..\:/Users/6001962/AndroidStudioProjects/DanielHidalgoPractica1/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/Daniel/Desktop/DanielHidalgoPractica1/app/src/main/res/layout/activity_filtros.xml" value="0.20260416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
